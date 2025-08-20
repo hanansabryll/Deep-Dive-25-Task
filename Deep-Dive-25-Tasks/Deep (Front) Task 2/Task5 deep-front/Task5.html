@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./main2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Hi,Welcome to Luxiro!</h2>
+        <p>Register your account</p>
+    </div>
+    <div class="container">
+        <div id="message"></div>
+
+        <form class="from" id="registerForm">
+
+            <div class="from-group">
+                <div class="li">
+                    <label>First name</label>
+                    <div class="in">
+                        <i class="fa-solid fa-user-pen"></i>
+                        <input id="firstName" class="input" type="text" placeholder="First name" />
+                    </div>
+
+                    <label for="">Mobile number or email address</label>
+                    <div class="in">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input id="email" class="input" type="email" placeholder="example@gmail.com" />
+                    </div>
+
+                    <label>Password</label>
+                    <div class="in">
+                        <i class="fa-solid fa-lock"></i>
+                        <input id="password" class="input" type="password" placeholder="password" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="li">
+                <label>Surname</label>
+                <div class="in">
+                    <i class="fa-solid fa-user-pen"></i>
+                    <input id="surname" class="input" type="text" placeholder="Surname" />
+                </div>
+
+                <label>Gender</label>
+                <div class="select-in">
+                    <i class="fa-solid fa-user"></i>
+                    <select id="gender" class="select-input">
+                        <option value="female">Female</option>
+                        <option value="male">male</option>
+                    </select>
+                </div>
+
+                <label>Confirm Password</label>
+                <div class="in">
+                    <i class="fa-solid fa-lock"></i>
+                    <input id="confirmPassword" class="input" type="password" placeholder="password" />
+                </div>
+            </div>
+    </div>
+    <!-- </form> -->
+
+    <button type="submit" id="registerBtn" class="btn">Register</button>
+    <!-- </form> -->
+
+    <div class="or">or login with</div>
+
+    <button type="button" class="google-btn">
+        <a href="https://www.google.com/" target="_blank">
+            <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google">
+            Sign up with Google
+    </button>
+    </a>
+    </form>
+    <script src="./main3.js"></script>
+</body>
+
+</html>
